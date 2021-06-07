@@ -1,0 +1,85 @@
+<html>
+    <head>
+    <title>Visual Studio</title>
+    </head>
+    <body>
+       
+        <h2>Visual Studio Code</h2>
+        
+        <p>Microsoft Visual Studio is an integrated development environment from Microsoft.<br>
+        It is used to develop computer programs,as well as websites, web apps, web services and mobile apps.</p>
+
+        <h3>SetUp of Visual Sudio Code:</h3>
+
+        <p>1.Download the visual studio Code installer for Windows.<br>
+        2.Once it is downloaded,run the installer(VSCodeUserSetup-{version}.exe).This will only take a minute.<br>
+        3.By Defaualt,vscode is installed<br></p>
+
+        <h3>Steps to create and open a simple webpage using Visual Studio:</h3>
+
+       <p>1.Create a folder on your computer for your project.
+        name the folder portfolio.<br>
+        2.Open the File menu and select Open Folder.<br>
+        3.Open the File menu and select New File.<br>
+        4.Right-click below the folder and select New File.<br>
+        5.Now you have a blank text file named Index.</p>
+        
+        <h3>About Console Screen</h3>
+
+        <p>The Console object provides access to the browser's debugging console.<br>
+            The console is useful for testing purposes.<br>
+            The console.log() method writes a message to the console.<br>
+
+            Example<br>
+        
+        console.log("Hello world!");<br>
+
+        </p>
+        
+        <h2>My First Console Project</h2>
+        <h3 id="Name"></h3>
+
+        <h3 id="Addition"></h3>
+
+        <h3 id="subtraction"></h3>
+
+        <h3 id="Multiplication"></h3>
+
+        <h3 id="Division"></h3>
+       
+        <script>
+    
+        var firstname="Atharv";
+        console.log(firstname);
+        var SRname="Jogi";
+        console.log(SRname);
+        var full_name=firstname.concat(SRname);
+        console.log(full_name);
+        document.getElementById("Name").innerHTML=full_name;
+
+        var num1=15;
+        console.log(num1);
+
+        var num2=10;
+        console.log(num2);
+
+        var num_add=num1+num2;
+        console.log(num_add);
+        document.getElementById("Addition").innerHTML=num_add;
+
+        var num_sub=num1-num2;
+        console.log(num_sub);
+        document.getElementById("subtraction").innerHTML=num_sub;
+
+        var num_multi=num1*num2;
+        console.log(num_multi);
+        document.getElementById("Multiplication").innerHTML=num_multi;
+
+        var num_div=num1/num2;
+        console.log(num_div);
+        document.getElementById("Division").innerHTML=num_div;
+
+        </script>
+       
+    </body>
+</html>
